@@ -1,0 +1,5 @@
+C:\Users\advance\Desktop\TournamentSort\TournamentSort\bin\Debug\TournamentSort.exe.config
+C:\Users\advance\Desktop\TournamentSort\TournamentSort\bin\Debug\TournamentSort.exe
+C:\Users\advance\Desktop\TournamentSort\TournamentSort\bin\Debug\TournamentSort.pdb
+C:\Users\advance\Desktop\TournamentSort\TournamentSort\obj\Debug\TournamentSort.exe
+C:\Users\advance\Desktop\TournamentSort\TournamentSort\obj\Debug\TournamentSort.pdb
