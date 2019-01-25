@@ -39,37 +39,37 @@ namespace TournamentSort
             Random r = new Random();
 
             int[] arr = new int[n];
-            for (int i = 0; i < n; i++)
+            for (int k = 0; k < n; k++)
             {
-                arr[i] = r.Next(1, n);
-                Console.Write(arr[i] + "  ");
+                arr[k] = r.Next(1, n);
+                Console.Write(arr[k] + "  ");
             }
             Console.WriteLine();
             return arr;
         }
 
-        public void sorted(int[] arr)
+        public void sorted(int[] array)
         {
 
-            int n = arr.Length;
+            int num = array.Length;
 
 
             //it  will divide total number of elements from 2
             //it will strt checking from 
-            for (int i = n / 2; i >= 0; i--)
+            for (int i = num / 2; i >= 0; i--)
             {
-                swapping(arr, n, i);
+                swapping(array, num, i);
             }
             //it will remove element from one by one
             //means one by one palyers getting out from the tournament
-            for (int i = n - 1; i >= 0; i--)
+            for (int i = num - 1; i >= 0; i--)
             {
-                if (arr[0] > arr[i])
+                if (array[0] > array[i])
                 {
-                    // Move current root to end 
-                    int temp = arr[0];
-                    arr[0] = arr[i];
-                    arr[i] = temp;
+                    // swapping current root to end
+                    int swap = array[0];
+                    array[0] = array[i];
+                    array[i] = swap;
                     swapping(arr, i, 0);
                 }
 
