@@ -70,7 +70,7 @@ namespace TournamentSort
                     int swap = array[0];
                     array[0] = array[i];
                     array[i] = swap;
-                    swapping(arr, i, 0);
+                    swapping(array, i, 0);
                 }
 
             }
